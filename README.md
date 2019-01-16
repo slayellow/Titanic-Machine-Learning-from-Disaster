@@ -23,13 +23,26 @@ Submission File Format
 Dataset
 -------
 
+-	Training Set: 891개의 데이터 / 12개의 Column으로 구성
+-	Test Set: 418개의 데이터 / Target Data를 제외한 11개의 Column으로 구성
+
 Model
 -----
+
+![Model](./Image/Model.png)
 
 Result
 ------
 
 ### Hyper Parameter
 
+-	Epoch: 300
+-	Batch Size : 1000
+
+![Result](./Image/Result.png)
+
 Discussion
 ----------
+
+-	Deep Neural Network로 Categorial Classification을 구현
+-	성능이 좋지는 않다.
